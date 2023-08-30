@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header{
+
+    background-color:dodgerblue;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    z-index: 999;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+.logo{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.8em;
+    text-align: center;
+
+}
+.logo:hover{
+    color: azure;
+}
+.navigation a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding: 10px;
+    transition: 0.7s ease;
+    cursor: pointer;
+}
+.navigation a:hover{
+    letter-spacing: 5px;
+    background-color: #000;
+    color: #fff;
+}
+
+.main-part{
+    width: 1200px;
+    padding: 20px;
+    margin: 40px auto;
+    display: flex;
+    box-shadow: 5px 10px 10px 2px #04040486;
+    border-radius: 10px;
+}
+.mainpic{
+    background-size: cover;
+    height: 500px;
+    border-radius: 10px;
+}
+.contents{
+
+    border-radius: 10px;
+    display: flex;
+    margin: 10px;
+
+}
+.countrydiv{
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    width: 400px;
+}
+.citydiv{
+    border: 2px solid gray;
+    width: 400px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 10px;
+    
+}
+.country{
+    text-align: center;
+    margin: 20px auto;
+}
+.country-Box{
+    text-align: center;
+    padding: 10px;
+    width: 300px;
+    align-items: center;
+    margin-left: 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.7s ease;
+}
+.country-Box:hover{
+    transform: scale(1.1);
+    background-color: #fff;
+    color: #000;
+}
+.cities-Box{
+    text-align: center;
+    padding: 10px;
+    width: 300px;
+    align-items: center;
+    margin-left: 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.7s ease;
+}
+.cities-Box:hover{
+    transform: scale(1.1);
+    background-color: #fff;
+    color: #000;
+}
+.times{
+    width: 10 0%;
+    height: 450px;
+    display: flex;
+    border: 5px solid #fff;
+    background-color: rgba(30, 143, 255, 0.593);
+    border-radius: 10px;
+    margin:50px auto;
+    padding: 30px;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.cards{
+    background-color: white;
+    width: 10em;
+    height:8em;
+    border-radius: 20px;
+    box-shadow: 0 5px 25px rgb(1 1 1 / 20%);
+    padding: 20px;
+    margin: 40px;
+    
+}
+.cards h2{
+    font-weight: bold;
+    color: dodgerblue;
+    text-align: center;
+}
+.cards p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.azan{
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+}
+.header2{
+
+    color: #fff;
+    width: 100%;
+}
+.place{
+    font-size: 6em;
+    font-weight: bold;
+
+}
+.header2 h4{
+    font-size: 28px;
+    margin-bottom: 15px;
+    font-weight: 200;
+}
+/*

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تطبيق اوقات الصلاة</title>
+    <link rel="stylesheet" href="prayer.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <!--Header Bar-->
+    <header>
+        <a href="prayerarabic.html" class="logo">براير تايمز</a>
+        <div class="navigation">
+            <a href="prayerarabic.html" id ="ara">عربي</a>
+            <a href="Prayer.html" id="eng">انجليزي</a>
+        </div>
+    </header>
+        <!--End Header Bar-->
+        
+    <!--selection Section-->
+    <section class="sec1"> 
+        <div class="main-part">
+            <img src="images/4.jfif" class="mainpic">
+            <div class="contents">
+                <div class="citydiv">
+                    <h2 class="country">اختر المدينة</h2>
+                    <select class="cities-Box">
+                        <option>...</option>
+                    </select>
+                </div>
+
+                <div class="countrydiv">
+                    <h2 class="country">اختر الدولة</h2>
+                    <select class="country-Box">
+                        <option>...</option>
+                    </select>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--end selection section-->
+
+<!--====================================================================================================-->
+
+`<!--cards section-->
+    <section class="sec2">
+        <div class="times">
+            <div class="header2">
+                <h1 class="azan" >مواقيت الصلاة</h1>
+                <h1 class="place">...</h1>
+                <h4 class="date"></h4>
+                <hr style="    width: 100%;
+                border-bottom: 2px solid #fff;">
+                </div>
+            <!--Fajir-->
+            <div class="cards">
+                <h2 class="prayName">الفجر</h2>
+                <p id="Fajir-Time">...</p>
+            </div>
+
+            <!--Sun-Rise-->
+            <div class="cards">
+                <h2 class="prayName">الشروق</h2>
+                <p id="SunRise-Time">...</p>
+            </div>
+
+            <!--Duhr-->
+            <div class="cards">
+                <h2 class="prayName">الظهر</h2>
+                <p id="Duhr-Time">...</p>
+            </div>
+
+            <!--Asr-->
+            <div class="cards">
+                <h2 class="prayName">العصر</h2>
+                <p id="Asr-Time">...</p>
+            </div>
+
+            <!--Maghrib-->
+            <div class="cards">
+                <h2 class="prayName">المغرب</h2>
+                <p id="Maghrib-Time">...</p>
+            </div>
+
+            <!--Ishaa-->
+            <div class="cards">
+                <h2 class="prayName">العشاء</h2>
+                <p id="Ishaa-Time">...</p>
+            </div>
+        </div>
+    </section>
+    <!--End Main Section-->
+
+<!--====================================================================================================-->
+<script src = "prayer2.js"></script>
+</body>
+</html>
